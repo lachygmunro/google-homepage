@@ -8,45 +8,48 @@
 
 <body>
  <nav>
-    <div class="leftnavlinks">
-        <a href="https://about.google">About</a>
-        <a href="https://store.google.com/AU/">Store</a>
-    </div>
-    <div class="rightnavlinks">
-        <a href="https://www.google.com/intl/en-GB/gmail/about/">Gmail</a>
-        <a href="https://www.google.com.au/imghp?hl=en&ogbl">Images</a>
-        <img src="img/Icon.png">
-        <button>Sign in</button>
-    </div>
+     <ul class="navigate">
+         <div class="lefttop">
+        <li class="headerlink"><a href="https://about.google">About</a></li>
+        <li class="headerlink"><a href="https://store.google.com/AU/">Store</a></li>
+        </div>
+        <div class="righttop">
+        <li class="headerlink"><a href="https://www.google.com/intl/en-GB/gmail/about/">Gmail</a></li>
+        <li class="headerlink"><a href="https://www.google.com.au/imghp?hl=en&ogbl">Images</a></li>
+        <li class="headerlink"><a href="https://www.google.com.au/intl/en/about/products"><img id ="icon" src="img/Icon.png"></a></li>
+        <li class="headerlink"><a href="https://accounts.google.com/ServiceLogin"><button id="signin">Sign in</button></a></li>
+        </div>
+     </ul>
 </nav>
 
 <section class="search">
-    <img class="logo"  src="img/google.png">
-    <div>
-        <img class="searchimg" src="img/search.png">
-        <input class="searchbox" type="text" placeholder="search">
-        <img class="microphoneimg" src="img/microphone">
-        <button type="Google Search">Google Search</button>
-        <button type="I'm Feeling Lucky">I'm Feeling Lucky</button>
+    <img class="logo" alt="Google Logo" src="img/google.png">
+    <div class="bar">
+        <div class="searchbox">
+            <input id="box" type="text">
+            <a href="#"><img id="microphoneimg" src="img/microphone"></a>
+        </div>
+        <div class="buttons">
+            <button class="button" type="Google Search">Google Search</button>
+            <button class="button" type="I'm Feeling Lucky">I'm Feeling Lucky</button>
+        </div>
     </div>
 </section>
 
 
-
 <footer>
-    <p>Australia</p>
-    <div class=footlinks>
+    <ul class=footlinks>
         <div class="leftfootlinks">
-            <a href="https://ads.google.com/intl/en_au/home/">Advertising</a>
-            <a href="https://www.google.com/services/">Business</a>
-            <a href="https://www.google.com/search/howsearchworks/">How Search works</a>
+            <li class = "footerlink"><a href="https://ads.google.com/intl/en_au/home/">Advertising</a></li>
+            <li class = "footerlink"><a href="https://www.google.com/services/">Business</a><li>
+            <li class = "footerlink"><a href="https://www.google.com/search/howsearchworks/">How Search works</a></li>
         </div>
         <div class="rightfootlinks">
-            <a href="https://policies.google.com/privacy">Privacy</a>
-            <a href="https://policies.google.com/terms">Terms</a>
-            <a href="#">Settings</a>
+            <li class = "footerlink"><a href="https://policies.google.com/privacy">Privacy</a></li>
+            <li class = "footerlink"><a href="https://policies.google.com/terms">Terms</a></li>
+            <li class = "footerlink"><a href="#">Settings</a></li>
         </div>
-    </div>
+    </ul>
 </footer>
 </body>
 </html>
